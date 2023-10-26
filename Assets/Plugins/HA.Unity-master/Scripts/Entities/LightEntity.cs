@@ -20,6 +20,7 @@ namespace HomeAssistant
             rgb_color = new[] {
           red, green, blue}
         });
+
         public void Toggle(Action<bool> handler = null) => IsOn(on =>
         {
             if (on)
@@ -29,7 +30,7 @@ namespace HomeAssistant
             }
             else
             {
-                TurnOnWithColor(255, 0, 0);
+                TurnOnWithColor(255, 255, 255);
                 //TurnRed();
 
                 handler?.Invoke(!on);

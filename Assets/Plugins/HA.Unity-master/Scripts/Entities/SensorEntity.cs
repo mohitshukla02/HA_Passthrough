@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SensorEntity : MonoBehaviour
+namespace HomeAssistant
 {
-    // Start is called before the first frame update
-    void Start()
+    public class SensorEntity : Entity
     {
-        
-    }
+        public SensorEntity(string entityId) : base("sensor" , entityId)
+        {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }
