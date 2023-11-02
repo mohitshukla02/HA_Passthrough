@@ -16,10 +16,22 @@ namespace HomeAssistant
             Id = id;
         }
 
-        public void GetState(Action<StateObject> handler = null) => HomeAssistant.Instance.GetState(Id, handler);
+        public void GetState(Action<StateObject> handler = null)
+        {
+            HomeAssistant.Instance.GetState(Id, handler);
+        }
 
-        public void CallService(string service, Action<List<StateObject>> handler = null) => CallService(service, null, handler);
+        public void GetBrightness(Action<StateObject> handler = null)
+        {
+            HomeAssistant.Instance.GetState(Id, handler);
+        }
 
+        public void CallServiceMain(string service, Action<List<StateObject>> handler = null)
+        {
+            CallService(service, null, handler);
+        }
+        
+        
         public void CallService(string service, object fields, Action<List<StateObject>> handler = null)
         {
             var data = fields?

@@ -12,9 +12,10 @@ namespace HomeAssistant
         }
 
         public void IsOn(Action<bool> handler = null) => GetState(result => handler?.Invoke(result?.State == "on"));
-        public void TurnOn() => CallService("turn_on");
-        public void TurnOff() => CallService("turn_off");
-        public void TurnOnWithBrightness(int brightness) => CallService("turn_on", new { brightness });
+        //public void GetBrightness(Action<int> handler = null) => GetBrightness(result => handler?.Invoke(result?.Attributes.TryGetValue));
+        public void TurnOn() => CallServiceMain("turn_on");
+        public void TurnOff() => CallServiceMain("turn_off");
+        //public void TurnOnWithBrightness(int brightness) => CallService("turn_on", new { brightness });
         public void TurnOnWithColor(int red, int green, int blue) => CallService("turn_on", new
         {
             rgb_color = new[] {
