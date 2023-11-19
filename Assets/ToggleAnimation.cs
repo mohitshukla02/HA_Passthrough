@@ -37,13 +37,22 @@ public class ToggleAnimation : MonoBehaviour
 
     public void OnSwitch(bool on)
     {
-        isOn = !isOn;
+        if (on)
+        {
+            uiHandleRectTransform.anchoredPosition = handlePosition * -1;
+            backgroundImage.color = backgroundActiveColor;
+            handleImage.color = handleActiveColor;
+            Debug.Log(toggle.isOn);
+        }
 
-            uiHandleRectTransform.anchoredPosition = on ? handlePosition * -1 : handlePosition;
-
-            backgroundImage.color = on ? backgroundActiveColor : backgroundDefaultColor;
-            handleImage.color = on ? handleActiveColor : handleDefaultColor;
-
+        else
+        {
+            uiHandleRectTransform.anchoredPosition = handlePosition;
+            backgroundImage.color = backgroundDefaultColor;
+            handleImage.color = handleDefaultColor;
+            Debug.Log(toggle.isOn);
+        }
+           
     }
 
     void OnDestroy()
