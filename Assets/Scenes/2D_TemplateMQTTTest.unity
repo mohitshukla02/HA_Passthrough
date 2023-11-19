@@ -1290,6 +1290,147 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
+--- !u!1 &81671069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81671070}
+  - component: {fileID: 81671073}
+  - component: {fileID: 81671072}
+  - component: {fileID: 81671071}
+  m_Layer: 5
+  m_Name: rect- toggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &81671070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81671069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 947066711}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &81671071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81671069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ba2378f50a1bcb94487407923dc112b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &81671072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81671069}
+  m_CullTransparentMesh: 1
+--- !u!114 &81671073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81671069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:143
+    formattedName: rect- toggle
+    spriteName: rect- toggle 4x 2065228674.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 81671069}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+    spriteSize: {x: 302, y: 166}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 2065228674
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect- toggle\r\n   
+      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/rect- toggle
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &88207994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2251,282 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
+--- !u!1 &138734926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138734927}
+  - component: {fileID: 138734930}
+  - component: {fileID: 138734929}
+  - component: {fileID: 138734928}
+  m_Layer: 5
+  m_Name: rect- toggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &138734927
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138734926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2113107201}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &138734928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138734926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ba2378f50a1bcb94487407923dc112b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &138734929
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138734926}
+  m_CullTransparentMesh: 1
+--- !u!114 &138734930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138734926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:143
+    formattedName: rect- toggle
+    spriteName: rect- toggle 4x 2065228674.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 138734926}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+    spriteSize: {x: 302, y: 166}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 2065228674
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect- toggle\r\n   
+      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/rect- toggle
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!1 &148927919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148927920}
+  - component: {fileID: 148927922}
+  - component: {fileID: 148927921}
+  m_Layer: 0
+  m_Name: Text-Devices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &148927920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148927919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543061827}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 436.81, y: -95}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &148927921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148927919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Devices
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_sharedMaterial: {fileID: -8077377708913807226, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &148927922
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148927919}
+  m_CullTransparentMesh: 1
 --- !u!1 &211640177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3094,150 +3511,6 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
---- !u!1 &334733251
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 334733252}
-  - component: {fileID: 334733254}
-  - component: {fileID: 334733253}
-  m_Layer: 5
-  m_Name: cont-groupToggle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &334733252
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334733251}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1826171671}
-  - {fileID: 459242307}
-  m_Father: {fileID: 1690819362}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &334733253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334733251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 75.290726
-  m_MinHeight: 41.260986
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &334733254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334733251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:160
-    formattedName: cont-groupToggle
-    spriteName: 
-    tags: 01000000
-    childIndexes: 3c0000003d000000
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 334733251}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 0, y: 0}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -474.13635}
-    fcuImageType: 0
-    buttonComponent: 0
-    hash: 663890706
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Vaccum/cont-groupToggle\r\n    isVisible
-      | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n   
-      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (75.29,
-      41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
-      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Vaccum/cont-groupToggle/rect-
-      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-      \u2014\u2014\u2014\u2014btn-Vaccum/cont-groupToggle/ellipse- val\r\n       
-      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
-      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
-      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
-      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
-      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
-      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
-      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
-      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
-      | 0\r\n"
-    parentIndex: 55
-    hierarchy: btn-Vaccum/cont-groupToggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: children not empty
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 0
-    forceContainer: 1
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
 --- !u!1 &360804969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3529,6 +3802,147 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364861348}
   m_CullTransparentMesh: 1
+--- !u!1 &366394372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366394373}
+  - component: {fileID: 366394376}
+  - component: {fileID: 366394375}
+  - component: {fileID: 366394374}
+  m_Layer: 5
+  m_Name: ellipse- val
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &366394373
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366394372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1932817134}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 21.015472, y: -20.630524}
+  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &366394374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366394372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &366394375
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366394372}
+  m_CullTransparentMesh: 1
+--- !u!114 &366394376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366394372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:144
+    formattedName: ellipse- val
+    spriteName: ellipse- val 4x -1601631349.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 366394372}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+    spriteSize: {x: 134, y: 134}
+    size: {x: 33.259827, y: 33.259827}
+    position: {x: 371.13556, y: 49.73787}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1601631349
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse-
+      val\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/ellipse- val
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &370593126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,7 +4228,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439223820}
   m_CullTransparentMesh: 1
---- !u!1 &458287356
+--- !u!1 &448373341
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3822,95 +4236,78 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 458287357}
-  - component: {fileID: 458287360}
-  - component: {fileID: 458287359}
-  - component: {fileID: 458287358}
+  - component: {fileID: 448373342}
+  - component: {fileID: 448373344}
+  - component: {fileID: 448373343}
   m_Layer: 5
-  m_Name: rect- toggle
+  m_Name: cont-groupToggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &458287357
+--- !u!224 &448373342
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458287356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 448373341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1961540523}
-  m_RootOrder: 0
+  m_Children:
+  - {fileID: 2068616101}
+  - {fileID: 2107674302}
+  m_Father: {fileID: 1690819362}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75.29071, y: 41.260986}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &458287358
+--- !u!114 &448373343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458287356}
+  m_GameObject: {fileID: 448373341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19c4851be5ae5ed4c8042e702afd564c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &458287359
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458287356}
-  m_CullTransparentMesh: 1
---- !u!114 &458287360
+  m_IgnoreLayout: 0
+  m_MinWidth: 75.290726
+  m_MinHeight: 41.260986
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &448373344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458287356}
+  m_GameObject: {fileID: 448373341}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    id: 2:152
-    formattedName: rect- toggle
-    spriteName: rect- toggle 4x -1774212357.png
-    tags: c9000000
-    childIndexes: 
+    id: 2:142
+    formattedName: cont-groupToggle
+    spriteName: 
+    tags: 01000000
+    childIndexes: 2000000021000000
     fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 458287356}
+    gameObject: {fileID: 448373341}
     transformData:
       anchorMin: {x: 0, y: 0}
       anchorMax: {x: 0, y: 0}
@@ -3918,181 +4315,60 @@ MonoBehaviour:
       sizeDelta: {x: 0, y: 0, z: 0}
       localRotation: {x: 0, y: 0, z: 0, w: 0}
       localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-    spriteSize: {x: 302, y: 166}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
     size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -202.56818}
-    fcuImageType: 1
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 0
     buttonComponent: 0
-    hash: -1774212357
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Fan/cont-groupToggle/rect- toggle\r\n   
-      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+    hash: -61956001
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
+      0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size
+      | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect-
+      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
       Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
       GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
       | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
       | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 45
-    hierarchy: btn-Fan/cont-groupToggle/rect- toggle
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse- val\r\n       
+      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
+      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
+      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 27
+    hierarchy: btn-Projector/cont-groupToggle
     spritePath: 
     link: 
     humanizedTextPrefabName: 
-    tagReason: SingleImage
+    tagReason: children not empty
     downloadAttempsCount: 0
     isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
+    isDuplicate: 0
+    isMutual: 0
     isEmptyMask: 0
     isEmpty: 0
     needDownload: 0
     needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
---- !u!1 &459242306
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 459242307}
-  - component: {fileID: 459242310}
-  - component: {fileID: 459242309}
-  - component: {fileID: 459242308}
-  m_Layer: 5
-  m_Name: ellipse- val
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &459242307
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459242306}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 334733252}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.015472, y: -20.630493}
-  m_SizeDelta: {x: 33.259827, y: 33.259827}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &459242308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459242306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &459242309
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459242306}
-  m_CullTransparentMesh: 1
---- !u!114 &459242310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459242306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:162
-    formattedName: ellipse- val
-    spriteName: ellipse- val 4x -1601631349.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 459242306}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-    spriteSize: {x: 134, y: 134}
-    size: {x: 33.259827, y: 33.259827}
-    position: {x: 371.13556, y: -478.13693}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1601631349
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Vaccum/cont-groupToggle/ellipse- val\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
-      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
-      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
-      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
-    parentIndex: 59
-    hierarchy: btn-Vaccum/cont-groupToggle/ellipse- val
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
+    forceImage: 0
+    forceContainer: 1
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
@@ -4536,7 +4812,7 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
---- !u!1 &545867005
+--- !u!1 &543061826
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4544,139 +4820,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 545867006}
-  - component: {fileID: 545867009}
-  - component: {fileID: 545867008}
-  - component: {fileID: 545867007}
-  m_Layer: 5
-  m_Name: ellipse- val
+  - component: {fileID: 543061827}
+  m_Layer: 0
+  m_Name: Text-Headers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &545867006
+--- !u!224 &543061827
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545867005}
+  m_GameObject: {fileID: 543061826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1680012487}
-  m_RootOrder: 1
+  m_Children:
+  - {fileID: 1331283692}
+  - {fileID: 1177184490}
+  - {fileID: 148927920}
+  - {fileID: 1957373949}
+  m_Father: {fileID: 662677011}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.015472, y: -20.630493}
-  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -244.15, y: 293.5}
+  m_SizeDelta: {x: 942.7, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &545867007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545867005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &545867008
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545867005}
-  m_CullTransparentMesh: 1
---- !u!114 &545867009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545867005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:150
-    formattedName: ellipse- val
-    spriteName: ellipse- val 4x -1601631349.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 545867005}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-    spriteSize: {x: 134, y: 134}
-    size: {x: 33.259827, y: 33.259827}
-    position: {x: 371.13556, y: -70.78467}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1601631349
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-TV/cont-groupToggle/ellipse- val\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
-      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
-      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
-      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
-    parentIndex: 38
-    hierarchy: btn-TV/cont-groupToggle/ellipse- val
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
 --- !u!1 &567657182
 GameObject:
   m_ObjectHideFlags: 0
@@ -4989,6 +5164,147 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604840074}
   m_CullTransparentMesh: 1
+--- !u!1 &617127324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617127325}
+  - component: {fileID: 617127328}
+  - component: {fileID: 617127327}
+  - component: {fileID: 617127326}
+  m_Layer: 5
+  m_Name: ellipse- val
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &617127325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617127324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 947066711}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 21.015472, y: -20.630524}
+  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &617127326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617127324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &617127327
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617127324}
+  m_CullTransparentMesh: 1
+--- !u!114 &617127328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617127324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:144
+    formattedName: ellipse- val
+    spriteName: ellipse- val 4x -1601631349.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 617127324}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+    spriteSize: {x: 134, y: 134}
+    size: {x: 33.259827, y: 33.259827}
+    position: {x: 371.13556, y: 49.73787}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1601631349
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse-
+      val\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/ellipse- val
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &620292562
 GameObject:
   m_ObjectHideFlags: 0
@@ -5166,13 +5482,13 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 132353193}
-  - {fileID: 1961540523}
+  - {fileID: 947066711}
   m_Father: {fileID: 662677011}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 386, y: -408.63}
+  m_AnchoredPosition: {x: 496, y: -408.63}
   m_SizeDelta: {x: 325.7907, y: 103.78409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653611031
@@ -5845,6 +6161,7 @@ RectTransform:
   - {fileID: 653611030}
   - {fileID: 1367894913}
   - {fileID: 1690819362}
+  - {fileID: 543061827}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5853,147 +6170,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &724747038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 724747039}
-  - component: {fileID: 724747042}
-  - component: {fileID: 724747041}
-  - component: {fileID: 724747040}
-  m_Layer: 5
-  m_Name: rect- toggle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &724747039
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724747038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1784076226}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &724747040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724747038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19c4851be5ae5ed4c8042e702afd564c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &724747041
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724747038}
-  m_CullTransparentMesh: 1
---- !u!114 &724747042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724747038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:155
-    formattedName: rect- toggle
-    spriteName: rect- toggle 4x -1774212357.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 724747038}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-    spriteSize: {x: 302, y: 166}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -338.35226}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1774212357
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Printer/cont-groupToggle/rect- toggle\r\n   
-      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 52
-    hierarchy: btn-Printer/cont-groupToggle/rect- toggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
 --- !u!1 &735153845
 GameObject:
   m_ObjectHideFlags: 0
@@ -7707,6 +7883,150 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 915645339}
+--- !u!1 &947066710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947066711}
+  - component: {fileID: 947066713}
+  - component: {fileID: 947066712}
+  m_Layer: 5
+  m_Name: cont-groupToggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &947066711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947066710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 81671070}
+  - {fileID: 617127325}
+  m_Father: {fileID: 653611030}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &947066712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947066710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: 75.290726
+  m_MinHeight: 41.260986
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &947066713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947066710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:142
+    formattedName: cont-groupToggle
+    spriteName: 
+    tags: 01000000
+    childIndexes: 2000000021000000
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 947066710}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -61956001
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
+      0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size
+      | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect-
+      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse- val\r\n       
+      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
+      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
+      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 27
+    hierarchy: btn-Projector/cont-groupToggle
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 1
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &967565712
 GameObject:
   m_ObjectHideFlags: 0
@@ -7737,7 +8057,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1075475253}
   m_Father: {fileID: 2138210266}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8245,17 +8566,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075475252}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2138210266}
-  m_RootOrder: 1
+  m_Father: {fileID: 967565713}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.015472, y: -20.630524}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -16.5, y: 0}
   m_SizeDelta: {x: 33.259827, y: 33.259827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075475254
@@ -8731,6 +9052,141 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
+--- !u!1 &1177184489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177184490}
+  - component: {fileID: 1177184492}
+  - component: {fileID: 1177184491}
+  m_Layer: 0
+  m_Name: Text-Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1177184490
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177184489}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543061827}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -95}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1177184491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177184489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Lights
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_sharedMaterial: {fileID: -8077377708913807226, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1177184492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177184489}
+  m_CullTransparentMesh: 1
 --- !u!1 &1230339410
 GameObject:
   m_ObjectHideFlags: 0
@@ -9530,6 +9986,141 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
+--- !u!1 &1331283691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1331283692}
+  - component: {fileID: 1331283694}
+  - component: {fileID: 1331283693}
+  m_Layer: 0
+  m_Name: Text-Overview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1331283692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331283691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543061827}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -25}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1331283693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331283691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Overview
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_sharedMaterial: {fileID: -8077377708913807226, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1331283694
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331283691}
+  m_CullTransparentMesh: 1
 --- !u!1 &1367894912
 GameObject:
   m_ObjectHideFlags: 0
@@ -9566,13 +10157,13 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 230448426}
-  - {fileID: 1784076226}
+  - {fileID: 1932817134}
   m_Father: {fileID: 662677011}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 386, y: -512}
+  m_AnchoredPosition: {x: 496, y: -512}
   m_SizeDelta: {x: 325.7907, y: 103.78409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367894914
@@ -10681,7 +11272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 604, y: -199}
+  m_AnchoredPosition: {x: 862, y: -199}
   m_SizeDelta: {x: 215, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520888020
@@ -10721,7 +11312,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10738,7 +11329,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 853259970}
+  m_TargetGraphic: {fileID: 1520888022}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -11707,150 +12298,6 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
---- !u!1 &1680012486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1680012487}
-  - component: {fileID: 1680012489}
-  - component: {fileID: 1680012488}
-  m_Layer: 5
-  m_Name: cont-groupToggle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1680012487
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680012486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2143265110}
-  - {fileID: 545867006}
-  m_Father: {fileID: 1935644398}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1680012488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680012486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 75.290726
-  m_MinHeight: 41.260986
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &1680012489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680012486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:148
-    formattedName: cont-groupToggle
-    spriteName: 
-    tags: 01000000
-    childIndexes: 2700000028000000
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1680012486}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 0, y: 0}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -66.78409}
-    fcuImageType: 0
-    buttonComponent: 0
-    hash: 663890706
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-TV/cont-groupToggle\r\n    isVisible
-      | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n   
-      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (75.29,
-      41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
-      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-TV/cont-groupToggle/rect-
-      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-      \u2014\u2014\u2014\u2014btn-TV/cont-groupToggle/ellipse- val\r\n        isVisible
-      | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle | 0\r\n       
-      FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n        StrokeAlign
-      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (33.26, 33.26)\r\n       
-      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
-      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
-      (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
-      | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463, 0.463,
-      0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
-      | 0\r\n"
-    parentIndex: 34
-    hierarchy: btn-TV/cont-groupToggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: children not empty
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 0
-    forceContainer: 1
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
 --- !u!1 &1690819361
 GameObject:
   m_ObjectHideFlags: 0
@@ -11887,13 +12334,13 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1808092190}
-  - {fileID: 334733252}
+  - {fileID: 448373342}
   m_Father: {fileID: 662677011}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 386, y: -615.37}
+  m_AnchoredPosition: {x: 496, y: -615.37}
   m_SizeDelta: {x: 325.7907, y: 103.78406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690819363
@@ -12464,6 +12911,147 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e340372365982854e82b6deed7ba7e24, type: 3}
+--- !u!1 &1744877999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744878000}
+  - component: {fileID: 1744878003}
+  - component: {fileID: 1744878002}
+  - component: {fileID: 1744878001}
+  m_Layer: 5
+  m_Name: ellipse- val
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1744878000
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744877999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2113107201}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 21.015472, y: -20.630524}
+  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1744878001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744877999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1744878002
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744877999}
+  m_CullTransparentMesh: 1
+--- !u!114 &1744878003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744877999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:144
+    formattedName: ellipse- val
+    spriteName: ellipse- val 4x -1601631349.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 1744877999}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+    spriteSize: {x: 134, y: 134}
+    size: {x: 33.259827, y: 33.259827}
+    position: {x: 371.13556, y: 49.73787}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1601631349
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse-
+      val\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/ellipse- val
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &1745363746
 GameObject:
   m_ObjectHideFlags: 0
@@ -12867,7 +13455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 386, y: -201.88}
+  m_AnchoredPosition: {x: 496, y: -201.88}
   m_SizeDelta: {x: 325.7907, y: 103.78409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772407192
@@ -13144,150 +13732,6 @@ MonoBehaviour:
     needGenerate: 1
     forceImage: 0
     forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
---- !u!1 &1784076225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1784076226}
-  - component: {fileID: 1784076228}
-  - component: {fileID: 1784076227}
-  m_Layer: 5
-  m_Name: cont-groupToggle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1784076226
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784076225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 724747039}
-  - {fileID: 1869478529}
-  m_Father: {fileID: 1367894913}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1784076227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784076225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 75.290726
-  m_MinHeight: 41.260986
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &1784076228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784076225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:154
-    formattedName: cont-groupToggle
-    spriteName: 
-    tags: 01000000
-    childIndexes: 3500000036000000
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1784076225}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 0, y: 0}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -338.35226}
-    fcuImageType: 0
-    buttonComponent: 0
-    hash: 663890706
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Printer/cont-groupToggle\r\n    isVisible
-      | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n   
-      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (75.29,
-      41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
-      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Printer/cont-groupToggle/rect-
-      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-      \u2014\u2014\u2014\u2014btn-Printer/cont-groupToggle/ellipse- val\r\n       
-      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
-      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
-      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
-      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
-      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
-      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
-      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
-      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
-      | 0\r\n"
-    parentIndex: 48
-    hierarchy: btn-Printer/cont-groupToggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: children not empty
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 0
-    forceContainer: 1
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
@@ -13607,7 +14051,7 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
---- !u!1 &1826171670
+--- !u!1 &1828330853
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13615,10 +14059,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1826171671}
-  - component: {fileID: 1826171674}
-  - component: {fileID: 1826171673}
-  - component: {fileID: 1826171672}
+  - component: {fileID: 1828330854}
+  - component: {fileID: 1828330857}
+  - component: {fileID: 1828330856}
+  - component: {fileID: 1828330855}
   m_Layer: 5
   m_Name: rect- toggle
   m_TagString: Untagged
@@ -13626,19 +14070,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1826171671
+--- !u!224 &1828330854
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826171670}
+  m_GameObject: {fileID: 1828330853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 334733252}
+  m_Father: {fileID: 1932817134}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -13646,27 +14090,27 @@ RectTransform:
   m_AnchoredPosition: {x: 37.645355, y: -20.630493}
   m_SizeDelta: {x: 75.29071, y: 41.260986}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1826171672
+--- !u!114 &1828330855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826171670}
+  m_GameObject: {fileID: 1828330853}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  m_Color: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19c4851be5ae5ed4c8042e702afd564c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba2378f50a1bcb94487407923dc112b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -13676,34 +14120,34 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1826171673
+--- !u!222 &1828330856
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826171670}
+  m_GameObject: {fileID: 1828330853}
   m_CullTransparentMesh: 1
---- !u!114 &1826171674
+--- !u!114 &1828330857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826171670}
+  m_GameObject: {fileID: 1828330853}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    id: 2:161
+    id: 2:143
     formattedName: rect- toggle
-    spriteName: rect- toggle 4x -1774212357.png
+    spriteName: rect- toggle 4x 2065228674.png
     tags: c9000000
     childIndexes: 
     fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1826171670}
+    gameObject: {fileID: 1828330853}
     transformData:
       anchorMin: {x: 0, y: 0}
       anchorMax: {x: 0, y: 0}
@@ -13711,14 +14155,14 @@ MonoBehaviour:
       sizeDelta: {x: 0, y: 0, z: 0}
       localRotation: {x: 0, y: 0, z: 0, w: 0}
       localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+    singleColor: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
     spriteSize: {x: 302, y: 166}
     size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -474.13635}
+    position: {x: 366.75, y: 53.73845}
     fcuImageType: 1
     buttonComponent: 0
-    hash: -1774212357
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Vaccum/cont-groupToggle/rect- toggle\r\n   
+    hash: 2065228674
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect- toggle\r\n   
       isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
       FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
       INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -13726,22 +14170,22 @@ MonoBehaviour:
       GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
       | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
       | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
       StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 59
-    hierarchy: btn-Vaccum/cont-groupToggle/rect- toggle
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/rect- toggle
     spritePath: 
     link: 
     humanizedTextPrefabName: 
     tagReason: SingleImage
-    downloadAttempsCount: 0
+    downloadAttempsCount: 1
     isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
+    isDuplicate: 0
+    isMutual: 0
     isEmptyMask: 0
     isEmpty: 0
-    needDownload: 0
+    needDownload: 1
     needGenerate: 0
     forceImage: 1
     forceContainer: 0
@@ -13898,147 +14342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867481953}
   m_CullTransparentMesh: 1
---- !u!1 &1869478528
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1869478529}
-  - component: {fileID: 1869478532}
-  - component: {fileID: 1869478531}
-  - component: {fileID: 1869478530}
-  m_Layer: 5
-  m_Name: ellipse- val
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1869478529
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869478528}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1784076226}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.015472, y: -20.630493}
-  m_SizeDelta: {x: 33.259827, y: 33.259827}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1869478530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869478528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1869478531
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869478528}
-  m_CullTransparentMesh: 1
---- !u!114 &1869478532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869478528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:156
-    formattedName: ellipse- val
-    spriteName: ellipse- val 4x -1601631349.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1869478528}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-    spriteSize: {x: 134, y: 134}
-    size: {x: 33.259827, y: 33.259827}
-    position: {x: 371.13556, y: -342.35284}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1601631349
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Printer/cont-groupToggle/ellipse-
-      val\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
-      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
-      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
-      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
-      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
-    parentIndex: 52
-    hierarchy: btn-Printer/cont-groupToggle/ellipse- val
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
 --- !u!1 &1880450596
 GameObject:
   m_ObjectHideFlags: 0
@@ -14260,7 +14563,7 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
---- !u!1 &1904314135
+--- !u!1 &1932817133
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14268,95 +14571,78 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1904314136}
-  - component: {fileID: 1904314139}
-  - component: {fileID: 1904314138}
-  - component: {fileID: 1904314137}
+  - component: {fileID: 1932817134}
+  - component: {fileID: 1932817136}
+  - component: {fileID: 1932817135}
   m_Layer: 5
-  m_Name: ellipse- val
+  m_Name: cont-groupToggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1904314136
+--- !u!224 &1932817134
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904314135}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1932817133}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1961540523}
+  m_Children:
+  - {fileID: 1828330854}
+  - {fileID: 366394373}
+  m_Father: {fileID: 1367894913}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.015472, y: -20.630432}
-  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1904314137
+--- !u!114 &1932817135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904314135}
+  m_GameObject: {fileID: 1932817133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1904314138
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904314135}
-  m_CullTransparentMesh: 1
---- !u!114 &1904314139
+  m_IgnoreLayout: 0
+  m_MinWidth: 75.290726
+  m_MinHeight: 41.260986
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &1932817136
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904314135}
+  m_GameObject: {fileID: 1932817133}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    id: 2:153
-    formattedName: ellipse- val
-    spriteName: ellipse- val 4x -1601631349.png
-    tags: c9000000
-    childIndexes: 
+    id: 2:142
+    formattedName: cont-groupToggle
+    spriteName: 
+    tags: 01000000
+    childIndexes: 2000000021000000
     fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1904314135}
+    gameObject: {fileID: 1932817133}
     transformData:
       anchorMin: {x: 0, y: 0}
       anchorMax: {x: 0, y: 0}
@@ -14364,40 +14650,60 @@ MonoBehaviour:
       sizeDelta: {x: 0, y: 0, z: 0}
       localRotation: {x: 0, y: 0, z: 0, w: 0}
       localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
-    spriteSize: {x: 134, y: 134}
-    size: {x: 33.259827, y: 33.259827}
-    position: {x: 371.13556, y: -206.56876}
-    fcuImageType: 1
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 0
     buttonComponent: 0
-    hash: -1601631349
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Fan/cont-groupToggle/ellipse- val\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
-      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
-      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
-      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
-      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
-    parentIndex: 45
-    hierarchy: btn-Fan/cont-groupToggle/ellipse- val
+    hash: -61956001
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
+      0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size
+      | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect-
+      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse- val\r\n       
+      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
+      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
+      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 27
+    hierarchy: btn-Projector/cont-groupToggle
     spritePath: 
     link: 
     humanizedTextPrefabName: 
-    tagReason: SingleImage
+    tagReason: children not empty
     downloadAttempsCount: 0
     isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
+    isDuplicate: 0
+    isMutual: 0
     isEmptyMask: 0
     isEmpty: 0
     needDownload: 0
     needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
+    forceImage: 0
+    forceContainer: 1
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
@@ -14437,13 +14743,13 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2672363}
-  - {fileID: 1680012487}
+  - {fileID: 2113107201}
   m_Father: {fileID: 662677011}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 386, y: -305.26}
+  m_AnchoredPosition: {x: 496, y: -305.26}
   m_SizeDelta: {x: 325.7907, y: 103.78409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935644399
@@ -14721,7 +15027,7 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
---- !u!1 &1961540522
+--- !u!1 &1957373948
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14729,142 +15035,133 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1961540523}
-  - component: {fileID: 1961540525}
-  - component: {fileID: 1961540524}
-  m_Layer: 5
-  m_Name: cont-groupToggle
+  - component: {fileID: 1957373949}
+  - component: {fileID: 1957373951}
+  - component: {fileID: 1957373950}
+  m_Layer: 0
+  m_Name: Text-Automations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1961540523
+--- !u!224 &1957373949
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961540522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1957373948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 458287357}
-  - {fileID: 1904314136}
-  m_Father: {fileID: 653611030}
-  m_RootOrder: 1
+  m_Children: []
+  m_Father: {fileID: 543061827}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1961540524
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 842.7, y: -95}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1957373950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961540522}
+  m_GameObject: {fileID: 1957373948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 75.290726
-  m_MinHeight: 41.260986
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &1961540525
-MonoBehaviour:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Automations
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_sharedMaterial: {fileID: -8077377708913807226, guid: e9d296fe436376f4d840cdf4da0c4b9d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1957373951
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961540522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 2:151
-    formattedName: cont-groupToggle
-    spriteName: 
-    tags: 01000000
-    childIndexes: 2e0000002f000000
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 1961540522}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 0, y: 0}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -202.56818}
-    fcuImageType: 0
-    buttonComponent: 0
-    hash: 663890706
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-Fan/cont-groupToggle\r\n    isVisible
-      | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n   
-      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (75.29,
-      41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
-      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Fan/cont-groupToggle/rect-
-      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-      \u2014\u2014\u2014\u2014btn-Fan/cont-groupToggle/ellipse- val\r\n        isVisible
-      | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle | 0\r\n       
-      FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n        StrokeAlign
-      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (33.26, 33.26)\r\n       
-      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
-      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
-      (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
-      | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463, 0.463,
-      0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
-      | 0\r\n"
-    parentIndex: 41
-    hierarchy: btn-Fan/cont-groupToggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: children not empty
-    downloadAttempsCount: 0
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 0
-    forceContainer: 1
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
+  m_GameObject: {fileID: 1957373948}
+  m_CullTransparentMesh: 1
 --- !u!1 &2025882067
 GameObject:
   m_ObjectHideFlags: 0
@@ -15303,6 +15600,147 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
+--- !u!1 &2068616100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068616101}
+  - component: {fileID: 2068616104}
+  - component: {fileID: 2068616103}
+  - component: {fileID: 2068616102}
+  m_Layer: 5
+  m_Name: rect- toggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2068616101
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068616100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 448373342}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2068616102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068616100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ba2378f50a1bcb94487407923dc112b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2068616103
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068616100}
+  m_CullTransparentMesh: 1
+--- !u!114 &2068616104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068616100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:143
+    formattedName: rect- toggle
+    spriteName: rect- toggle 4x 2065228674.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 2068616100}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.22083333, g: 0.22083333, b: 0.22083333, a: 1}
+    spriteSize: {x: 302, y: 166}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 2065228674
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect- toggle\r\n   
+      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/rect- toggle
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &2100126888
 GameObject:
   m_ObjectHideFlags: 0
@@ -15680,6 +16118,147 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 1
+--- !u!1 &2107674301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107674302}
+  - component: {fileID: 2107674305}
+  - component: {fileID: 2107674304}
+  - component: {fileID: 2107674303}
+  m_Layer: 5
+  m_Name: ellipse- val
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2107674302
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107674301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 448373342}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 21.015472, y: -20.630524}
+  m_SizeDelta: {x: 33.259827, y: 33.259827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2107674303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107674301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f15d261f469065b45a1968cbf616f5b7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2107674304
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107674301}
+  m_CullTransparentMesh: 1
+--- !u!114 &2107674305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107674301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:144
+    formattedName: ellipse- val
+    spriteName: ellipse- val 4x -1601631349.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 2107674301}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.4625, g: 0.4625, b: 0.4625, a: 1}
+    spriteSize: {x: 134, y: 134}
+    size: {x: 33.259827, y: 33.259827}
+    position: {x: 371.13556, y: 49.73787}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1601631349
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse-
+      val\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1571832088\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
+      INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (33.26, 33.26)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.463, 0.463, 0.463, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 6.283185\r\n        InnerRadius | 0\r\n"
+    parentIndex: 31
+    hierarchy: btn-Projector/cont-groupToggle/ellipse- val
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &2109628588
 GameObject:
   m_ObjectHideFlags: 0
@@ -15815,6 +16394,150 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109628588}
   m_CullTransparentMesh: 1
+--- !u!1 &2113107200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2113107201}
+  - component: {fileID: 2113107203}
+  - component: {fileID: 2113107202}
+  m_Layer: 5
+  m_Name: cont-groupToggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2113107201
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113107200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 138734927}
+  - {fileID: 1744878000}
+  m_Father: {fileID: 1935644398}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75.29071, y: 41.260986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2113107202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113107200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: 75.290726
+  m_MinHeight: 41.260986
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &2113107203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113107200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 2:142
+    formattedName: cont-groupToggle
+    spriteName: 
+    tags: 01000000
+    childIndexes: 2000000021000000
+    fcuInstance: {fileID: 662677010}
+    gameObject: {fileID: 2113107200}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 75.29071, y: 41.260986}
+    position: {x: 366.75, y: 53.73845}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -61956001
+    hashDataTree: "\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
+      0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size
+      | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/rect-
+      toggle\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign
+      | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
+      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221,
+      0.221, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014btn-Projector/cont-groupToggle/ellipse- val\r\n       
+      isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight | 0.375\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (33.26, 33.26)\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1571832088\r\n        StrokeWeight
+      | 0.375\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (33.26, 33.26)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.463,
+      0.463, 0.463, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 27
+    hierarchy: btn-Projector/cont-groupToggle
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 1
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
 --- !u!1 &2138210265
 GameObject:
   m_ObjectHideFlags: 0
@@ -15826,6 +16549,8 @@ GameObject:
   - component: {fileID: 2138210266}
   - component: {fileID: 2138210268}
   - component: {fileID: 2138210267}
+  - component: {fileID: 2138210269}
+  - component: {fileID: 2138210270}
   m_Layer: 5
   m_Name: cont-groupToggle
   m_TagString: Untagged
@@ -15846,7 +16571,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 967565713}
-  - {fileID: 1075475253}
   m_Father: {fileID: 1772407191}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15959,144 +16683,64 @@ MonoBehaviour:
     isInsideDownloadable: 0
     insideForceImage: 0
     hasFontAsset: 0
---- !u!1 &2143265109
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143265110}
-  - component: {fileID: 2143265113}
-  - component: {fileID: 2143265112}
-  - component: {fileID: 2143265111}
-  m_Layer: 5
-  m_Name: rect- toggle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2143265110
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143265109}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1680012487}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 37.645355, y: -20.630493}
-  m_SizeDelta: {x: 75.29071, y: 41.260986}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2143265111
+--- !u!114 &2138210269
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143265109}
+  m_GameObject: {fileID: 2138210265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 967565714}
+  toggleTransition: 1
+  graphic: {fileID: 0}
+  m_Group: {fileID: 0}
+  onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19c4851be5ae5ed4c8042e702afd564c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2143265112
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143265109}
-  m_CullTransparentMesh: 1
---- !u!114 &2143265113
+  m_IsOn: 0
+--- !u!114 &2138210270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143265109}
+  m_GameObject: {fileID: 2138210265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: e79552b741a703a4bbf105720043a30d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    id: 2:149
-    formattedName: rect- toggle
-    spriteName: rect- toggle 4x -1774212357.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 662677010}
-    gameObject: {fileID: 2143265109}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
-    spriteSize: {x: 302, y: 166}
-    size: {x: 75.29071, y: 41.260986}
-    position: {x: 366.75, y: -66.78409}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1774212357
-    hashDataTree: "\u2014\u2014\u2014\u2014btn-TV/cont-groupToggle/rect- toggle\r\n   
-      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
-      FillGeometry | -2031014994\r\n    StrokeWeight | 0.375\r\n    StrokeAlign |
-      INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode | PASS_THROUGH\r\n   
-      Size | (75.29, 41.26)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | -2031014994\r\n    StrokeWeight
-      | 0.375\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 41.625\r\n    BlendMode
-      | PASS_THROUGH\r\n    Size | (75.29, 41.26)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.851, 0.851,
-      0.851, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 38
-    hierarchy: btn-TV/cont-groupToggle/rect- toggle
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 1
-    isDownloadable: 0
-    isDuplicate: 1
-    isMutual: 1
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 1
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    insideForceImage: 0
-    hasFontAsset: 0
+  uiHandleRectTransform: {fileID: 1075475253}
