@@ -1,42 +1,46 @@
 # HA_Passthrough
 
-> HA with Passthrough Integration for Meta Quest Pro
+The Home Assistant control panel, rendered over your actual room. A passthrough
+build for Meta Quest Pro.
 
-## 📖 Overview
-A virtual reality / augmented reality exploration and development project focused on building immersive experiences using Unity and C#.
+## What it does
 
-## 🛠️ Built With
-* **Engine:** Unity `2021.3.10f1`
-* **Language:** C#
-### 📦 Key Plugins & SDKs
-* **com.unity.collab-proxy** (`1.17.2`)
-* **com.unity.feature.development** (`1.0.1`)
-* **com.unity.ide.rider** (`3.0.15`)
-* **com.unity.ide.visualstudio** (`2.0.16`)
-* **com.unity.ide.vscode** (`1.2.5`)
-* **com.unity.test-framework** (`1.1.31`)
-* **com.unity.textmeshpro** (`3.0.6`)
-* **com.unity.timeline** (`1.6.4`)
-* **com.unity.ugui** (`1.0.0`)
-* **com.unity.visualscripting** (`1.7.8`)
-* **com.unity.xr.management** (`4.4.0`)
-* **com.unity.xr.oculus** (`3.0.2`)
+Same MQTT control surface as the VR build — `msHA/Lights/Bedroom/...` for
+individual and grouped lights, `msHA/Devices/...` for room devices, subscribing
+as well as publishing so the panel reflects the real state of the house.
 
-## 🚀 Getting Started
+The difference is passthrough. In full VR a smart-home panel is abstract: you
+toggle "Bedroom / Alpha" and have to remember which lamp that is. With
+passthrough the panel floats in the room next to the light it controls, and the
+mapping stops needing to be memorised — you can watch the bulb respond while
+the control is still in view.
 
-### Prerequisites
-* Unity Hub and Unity Editor version **`2021.3.10f1`**
+## Scenes
 
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/mohitshukla02/HA_Passthrough.git
-   ```
-2. Open the project via Unity Hub.
-3. Wait for the packages to resolve and load.
+| Scene | Purpose |
+|---|---|
+| `Passthrough_MQTT` | The passthrough control panel, live over MQTT |
+| `PassthroughScene` | Passthrough setup and placement |
+| `2D_TemplateMQTTTest` | Flat-screen MQTT wiring, testable without a headset |
+| `FigmaImportTest` | Checking imported Figma layouts |
 
-## 📝 License
-**All rights reserved.** This project and its contents are strictly private. Unauthorized copying, modification, distribution, or use of this project, via any medium, is strictly prohibited.
+## Built with
+
+Unity 2021.3.10f1 · Oculus Integration SDK · Oculus XR Plugin 3.0.2 ·
+smoothMQTT · Figma Converter for Unity · Meta Quest Pro
+
+## Related
+
+[HomeAssistant_VR](https://github.com/mohitshukla02/HomeAssistant_VR) — the VR
+build ·
+[SmartHomeOS](https://github.com/mohitshukla02/SmartHomeOS) — the UI layer ·
+[Test-SmoothMQTT](https://github.com/mohitshukla02/Test-SmoothMQTT) — the MQTT
+groundwork
+
+## Third-party assets
+
+Bundles the Oculus Integration SDK, smoothMQTT, Figma Converter for Unity,
+TotalJSON, and DOTween, which remain under their own licenses.
 
 ## License
 
